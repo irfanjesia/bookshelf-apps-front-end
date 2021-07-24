@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Bookshelf Apps</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="content">
+            <section class="search_section">
+                <div class="content-container2">
+                    <h3 class="">Cari Buku</h3>
+                    <form id=searchBook>
+                        <div class="search">
+                            <label for="searchBookTitle">Pencarian</label>
+                            <input id="searchBookTitle" type="text" placeholder="Masukkan judul buku">
+                            <button id="bookSearch" type="submit">Cari</button>
+                            <div id="search"></div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section class="input_section">
+                <div class="content-container2">
+                    <h3>Masukkan Buku Baru</h3>
+                    <form id="inputBook">
+                        <div class="input">
+                            <label for="inputBookTitle">Judul</label>
+                            <input id="inputBookTitle" type="text" placeholder="Judul buku" required>
+                        </div>
+                        <div class="input">
+                            <label for="inputBookAuthor">Penulis</label>
+                            <input id="inputBookAuthor" type="text" placeholder="Nama penulis buku" required>
+                        </div>
+                        <div class="input">
+                            <label for="inputBookYear">Tahun</label>
+                            <input id="inputBookYear" type="number" placeholder="Tahun terbit buku" required>
+                        </div>
+                        <div class="input-inline">
+                            <label for="inputBookIsComplete">Selesai dibaca</label>
+                            <input id="inputBookIsComplete" type="checkbox">
+                        </div>
+                        <div class="input">
+                            <button id="bookInput" type="submit">Masukkan Buku</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <aside>
+            <section class="book_shelf">
+                <div id="content2">
+                    <div class="aside-container2">
+                        <h3 class="">Belum Selesai Dibaca</h3>
+                        <div class="list-book" id="unread">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="book_shelf">
+                <div id="content2">
+                    <div class="aside-container">
+                        <h3>Selesai Dibaca</h3>
+                        <div class="list-book" id="read">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+        
+    </main>
+    <footer>
+        <p>Belajar Membuat Front-End Web untuk Pemula &#169; 2019, Dicoding Academy</p>
+    </footer>
+    <script src="assets/js/dom.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
