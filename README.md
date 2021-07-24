@@ -2,7 +2,7 @@
 This project is my submission for Dicoding Create Front-End Web for Beginners Course. I use media queries to customize layouts on various device screen sizes and localStorage to store book data.
 
 Here are the criterias:
-- Bookshelf Apps must be Able to add new book data, stored book data is a JavaScript object.
+- Bookshelf Apps must be able to add new book data, stored book data is a JavaScript object.
 - Bookshelf Apps must have 2 Bookshelves; "Not finished reading" and "Finished reading". "Not finished reading" only stores books which isComplete property is false.
 "Finished reading" only saves books which isComplete property is true.
 - Books displayed on the shelf must be able to be moved between the two bookshelves.
