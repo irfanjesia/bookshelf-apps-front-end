@@ -1,5 +1,5 @@
 # 📃 Description
-This project is my submission for Dicoding Create Front-End Web for Beginners Course. I use media queries to customize layouts on various device screen sizes and localStorage to store book data. This website is currently written in Bahasa Indonesia.
+This project is my submission for Dicoding Create Front-End Web for Beginners Course. I use media queries to customize layouts on various device screen sizes and localStorage to store book data. Website contents are currently written in Bahasa Indonesia.
 
 Here are the criterias:
 - Bookshelf Apps must be able to add new book data, stored book data is a JavaScript object.
